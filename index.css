@@ -17,6 +17,16 @@
     justify-content: space-evenly;
     padding: 0 20px;
 }
+/* this is for button hower */
+.button{
+    border: 1px solid transparent;
+
+}
+.button:hover{
+    /* border: 1px solid rgb(180, 48, 136); */
+    background-color: green;
+
+}
 
 /* Search Bar */
 .searchnav {
@@ -24,7 +34,7 @@
     max-width: 665px;
     height: 40px;
     display: flex;
-    border: 2px solid blue;
+    border: 2px solid black;
     align-items: center;
 }
 
